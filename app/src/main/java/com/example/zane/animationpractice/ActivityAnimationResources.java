@@ -25,7 +25,7 @@ public class ActivityAnimationResources extends AppCompatActivity {
         setContentView(R.layout.activity_animation_resources);
         ButterKnife.bind(this);
 
-        startAnimation = AnimationUtils.loadAnimation(this, R.anim.animation_resources_start);
+        startAnimation = AnimationUtils.loadAnimation(this, R.anim.anim_resources_start);
 
         setupAnimationListener();
 
@@ -44,7 +44,7 @@ public class ActivityAnimationResources extends AppCompatActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-                Animation endAnimation = AnimationUtils.loadAnimation(ActivityAnimationResources.this, R.anim.animation_resources_end);
+                Animation endAnimation = AnimationUtils.loadAnimation(ActivityAnimationResources.this, R.anim.anim_resources_end);
                 ivPractice.startAnimation(endAnimation);
             }
 

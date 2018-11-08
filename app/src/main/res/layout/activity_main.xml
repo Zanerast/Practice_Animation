@@ -16,4 +16,14 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btn_activity_transition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Activity Transition!"
+        app:layout_constraintEnd_toEndOf="@+id/btn_animation_resources"
+        app:layout_constraintStart_toStartOf="@+id/btn_animation_resources"
+        app:layout_constraintTop_toBottomOf="@+id/btn_animation_resources" />
+
 </android.support.constraint.ConstraintLayout>

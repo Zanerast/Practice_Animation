@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityAnimationResources"></activity>
+        <activity android:name=".ActivityAnimationResources" />
+        <activity android:name=".ActivityTransitionAnimation"></activity>
     </application>
 
 </manifest>
