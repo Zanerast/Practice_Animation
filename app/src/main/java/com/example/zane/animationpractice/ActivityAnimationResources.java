@@ -12,7 +12,7 @@ import butterknife.ButterKnife;
 
 public class ActivityAnimationResources extends AppCompatActivity {
 
-    @BindView(R.id.btn_start)
+    @BindView(R.id.btn_start_walking)
     Button btnStart;
     @BindView(R.id.iv_practice)
     ImageView ivPractice;

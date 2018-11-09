@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Animation Resources"
+        android:text="@string/animation_resources"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Activity Transition"
+        android:text="@string/activity_transition"
         app:layout_constraintEnd_toEndOf="@+id/btn_animation_resources"
         app:layout_constraintStart_toStartOf="@+id/btn_animation_resources"
         app:layout_constraintTop_toBottomOf="@+id/btn_animation_resources" />
@@ -31,9 +31,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Scene Transition"
+        android:text="@string/scene_transition"
         app:layout_constraintEnd_toEndOf="@+id/btn_activity_transition"
         app:layout_constraintStart_toStartOf="@+id/btn_activity_transition"
         app:layout_constraintTop_toBottomOf="@+id/btn_activity_transition" />
+
+    <Button
+        android:id="@+id/btn_background_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/background_animation"
+        app:layout_constraintEnd_toEndOf="@+id/btn_scene_transition"
+        app:layout_constraintStart_toStartOf="@+id/btn_scene_transition"
+        app:layout_constraintTop_toBottomOf="@+id/btn_scene_transition" />
 
 </android.support.constraint.ConstraintLayout>

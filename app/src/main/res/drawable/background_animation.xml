@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/walk0"/>
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/walk1"/>
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/walk2"/>
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/walk3"/>
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/walk4"/>
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/walk5"/>
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/walk6"/>
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/walk7"/>
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/walk8"/>
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/walk9"/>
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/walk10"/>
+
+
+</animation-list>

@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".ActivityAnimationResources" />
         <activity android:name=".ActivityTransitionAnimation" />
-        <activity android:name=".ActivitySceneTransition"></activity>
+        <activity android:name=".ActivitySceneTransition" />
+        <activity android:name=".ActivityBackgroundAnimation"></activity>
     </application>
 
 </manifest>

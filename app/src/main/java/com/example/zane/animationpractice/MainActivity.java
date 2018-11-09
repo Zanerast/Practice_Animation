@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnActivityTransition;
     @BindView(R.id.btn_scene_transition)
     Button btnSceneTransition;
+    @BindView(R.id.btn_background_animation)
+    Button btnBackgroundAnimation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,19 +25,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        btnAnimationResources.setOnClickListener(v -> {
-            Intent intent = new Intent(this, ActivityAnimationResources.class);
-            startActivity(intent);
-        });
+        btnAnimationResources.setOnClickListener(v ->
+                startActivity(new Intent(this, ActivityAnimationResources.class)));
 
         btnActivityTransition.setOnClickListener(v -> {
             startActivity(new Intent(this, ActivityTransitionAnimation.class));
             overridePendingTransition(R.anim.anim_slide_up_in, R.anim.anim_slide_up_out);
         });
 
-        btnSceneTransition.setOnClickListener(v -> {
-            startActivity(new Intent(this, ActivitySceneTransition.class));
-        });
+        btnSceneTransition.setOnClickListener(v ->
+                startActivity(new Intent(this, ActivitySceneTransition.class)));
+
+        btnBackgroundAnimation.setOnClickListener(v ->
+                startActivity(new Intent(this, ActivityBackgroundAnimation.class)));
 
 
     }

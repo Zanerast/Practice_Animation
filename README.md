@@ -13,3 +13,8 @@ Activity Transition:
 Scene Transition:
 - Animation commands set programmatically
 - Button press calls TransitionManager which swaps out Scene
+
+Background Animation:
+- Animation created by using a drawable animation list
+- Button background set to drawable animation list
+- Pressing button cause list to go through the list

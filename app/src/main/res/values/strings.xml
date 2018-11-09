@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AnimationPractice</string>
+    <string name="background_animation">Background Animation</string>
+    <string name="scene_transition">Scene Transition</string>
+    <string name="activity_transition">Activity Transition</string>
+    <string name="animation_resources">Animation Resources</string>
+    <string name="start_walking">Start Walking</string>
+    <string name="start_animation">Start Animation!!!</string>
+    <string name="stop_walking">Stop Walking</string>
 </resources>
