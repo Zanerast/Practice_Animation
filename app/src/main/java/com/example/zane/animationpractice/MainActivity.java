@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnAnimationResources;
     @BindView(R.id.btn_activity_transition)
     Button btnActivityTransition;
+    @BindView(R.id.btn_scene_transition)
+    Button btnSceneTransition;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,5 +32,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, ActivityTransitionAnimation.class));
             overridePendingTransition(R.anim.anim_slide_up_in, R.anim.anim_slide_up_out);
         });
+
+        btnSceneTransition.setOnClickListener(v -> {
+            startActivity(new Intent(this, ActivitySceneTransition.class));
+        });
+
+
     }
 }

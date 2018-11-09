@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivityAnimationResources" />
-        <activity android:name=".ActivityTransitionAnimation"></activity>
+        <activity android:name=".ActivityTransitionAnimation" />
+        <activity android:name=".ActivitySceneTransition"></activity>
     </application>
 
 </manifest>
