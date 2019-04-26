@@ -1,5 +1,18 @@
-Animation Practice
+# Practice App - Animation Practice
 
+## Project Overview
+Course from [Udemy - The Complete Android Animations Course](https://www.udemy.com/the-complete-android-animations-course/)
+
+The app previews simple Android animations.
+
+
+
+## Why this Project?
+To learn a deep practical knowlege of Android animations and how to use them
+
+
+
+## This app does the following:
 Activity Animation Resources:
 - Animation commands set in XML
 - Button press loads animation which Scales and Rotates image
@@ -18,3 +31,7 @@ Background Animation:
 - Animation created by using a drawable animation list
 - Button background set to drawable animation list
 - Pressing button cause list to go through the list
+
+![Alt text](animation_one.gif?raw=true "Animation Gif One") 
+![Alt text](animation_two.gif?raw=true "Animation Gif Two") 
+![Alt text](animation_three.gif?raw=true "Animation Gif Three") 
